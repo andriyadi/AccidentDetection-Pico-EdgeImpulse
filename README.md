@@ -29,6 +29,8 @@ The firmware that actually does the inference/recognition of car state based on 
 Again, please watch Webinar recording [video](https://youtu.be/q7cf1reGiGM?t=7427) above which I demoed how to use those 2 projects, and work with Edge Impulse Studio. If you're impatient, jump to [this timemark](https://youtu.be/q7cf1reGiGM?t=9737) when I start to discuss and work with Edge Impulse and the projects.
 
 ## Credits
+MPU6050 library is adapted from this [repo](https://github.com/jarzebski/Arduino-MPU6050). I change the code for I2C communication that's specific for RP2040.
+
 This project is heavily inspired and adopt some code from these:
 * [example-standalone-inferencing-pico](https://github.com/AIWintermuteAI/example-standalone-inferencing-pico) by [@AIWintermuteAI](https://github.com/AIWintermuteAI)
 * [Pico-Motion-Recognition](https://github.com/Mjrovai/Pico-Motion-Recognition) by [@Mjrovai](https://github.com/Mjrovai/)
